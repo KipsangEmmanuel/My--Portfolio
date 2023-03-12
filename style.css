@@ -1,0 +1,156 @@
+/* General styles */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221, 255, 205);
+    color: black;
+
+    /* background-image: url('rail.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+  }
+  
+  h1, h2 {
+    font-weight: normal;
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: lightgrey;
+    /* border-bottom: 1px solid #dee2e6; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 50px;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  ul li a {
+    display: block;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+  }
+  
+  ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  footer ul {
+    display: flex;
+  }
+  
+  footer li {
+    margin-right: 20px;
+  }
+  
+  footer i {
+    font-size: 24px;
+  }
+  #about {
+    transition: all 0.25s linear; 
+    max-width: 600px;
+    /* max-height: 50%; */
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px rgba(243, 234, 234, 0.5);    
+    padding: 20px;
+    transition: all 0.25s linear;
+  }
+  #projects {
+    transition: all 0.25s linear; 
+    max-width: 600px;
+    /* max-height: 50%; */
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px rgba(243, 234, 234, 0.5);    
+    padding: 20px;
+    transition: all 0.25s linear;
+  }
+  #contact {
+    transition: all 0.25s linear; 
+    max-width: 600px;
+    /* max-height: 50%; */
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px rgba(243, 234, 234, 0.5);
+    padding: 20px;
+    transition: all 0.25s linear;
+  }
+  .footer {
+    background-color: #d2f1ae;
+  }
+  form {
+  display: block;
+  width: 100%;
+}
+
+label,
+input,
+textarea,
+button {
+  display: block;
+  margin-bottom: 10px 10px;
+  padding: 10px;
+  width: 95%;
+}
+#send-btn {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove default border */
+    color: white; /* White text */
+    padding: 12px 24px; /* Add padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Increase font size */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Add cursor on hover */
+    margin-top: 20px;
+}
